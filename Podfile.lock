@@ -1,0 +1,20 @@
+PODS:
+  - iOSDropDown (0.4.0)
+  - SideMenu (6.5.0)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - SideMenu
+
+SPEC CHECKSUMS:
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+
+PODFILE CHECKSUM: f1debf7b8552dc1cf562f51296c2ce7451ed0e2b
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261A33CF29C97897000679D3 /* leaveformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A33CE29C97897000679D3 /* leaveformViewController.swift */; };
+		261A33D129C984C0000679D3 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261A33D029C984C0000679D3 /* iOSDropDown.framework */; };
+		265B40FD29C058D700ABB773 /* assignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B40FC29C058D700ABB773 /* assignmentTableViewCell.swift */; };
+		265B40FF29C0590500ABB773 /* assignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265B40FE29C0590500ABB773 /* assignmentViewController.swift */; };
+		265C7A9129C2EC590067BB41 /* leaveapplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C7A9029C2EC590067BB41 /* leaveapplicationViewController.swift */; };
+		265C7A9329C2EE900067BB41 /* leaveapplicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C7A9229C2EE900067BB41 /* leaveapplicationTableViewCell.swift */; };
+		268C15D029C1A4E6001712A1 /* staffdirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C15CF29C1A4E6001712A1 /* staffdirectoryViewController.swift */; };
+		268C15D229C1A504001712A1 /* staffdirectoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C15D129C1A504001712A1 /* staffdirectoryTableViewCell.swift */; };
+		26A4507729BEFCE2002332F1 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4507629BEFCE2002332F1 /* sidemenuViewController.swift */; };
+		26A4507929BF0249002332F1 /* sidemenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4507829BF0249002332F1 /* sidemenuTableViewCell.swift */; };
+		26ACD8A829BB01130021C446 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ACD8A729BB01130021C446 /* newViewController.swift */; };
+		26B0BE9A29B9A8BE00105C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BE9929B9A8BE00105C7F /* AppDelegate.swift */; };
+		26B0BE9C29B9A8BE00105C7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BE9B29B9A8BE00105C7F /* SceneDelegate.swift */; };
+		26B0BE9E29B9A8BE00105C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BE9D29B9A8BE00105C7F /* ViewController.swift */; };
+		26B0BEA129B9A8BE00105C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BE9F29B9A8BE00105C7F /* Main.storyboard */; };
+		26B0BEA329B9A8C000105C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BEA229B9A8C000105C7F /* Assets.xcassets */; };
+		26B0BEA629B9A8C000105C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BEA429B9A8C000105C7F /* LaunchScreen.storyboard */; };
+		26B0BEB129B9A8C000105C7F /* s_meetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BEB029B9A8C000105C7F /* s_meetTests.swift */; };
+		26B0BEBC29B9A8C000105C7F /* s_meetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BEBB29B9A8C000105C7F /* s_meetUITests.swift */; };
+		26BEF97729C82FCA007E568A /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEF97629C82FCA007E568A /* profileViewController.swift */; };
+		26C0392B29C431800018748E /* timetableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0392A29C431800018748E /* timetableTableViewCell.swift */; };
+		26C0392D29C431B30018748E /* timetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C0392C29C431B30018748E /* timetableViewController.swift */; };
+		26D1243F29C83FCC0022A95C /* forgotpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D1243E29C83FCC0022A95C /* forgotpasswordViewController.swift */; };
+		2CCABA17D72CAA06A0310E4A /* Pods_s_meetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5440877E71A4B9CE37443AF5 /* Pods_s_meetTests.framework */; };
+		380B547329F8EAD600717AAF /* eventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547229F8EAD600717AAF /* eventViewController.swift */; };
+		380B547529F8EAF300717AAF /* eventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547429F8EAF300717AAF /* eventTableViewCell.swift */; };
+		380B547729F8FEF300717AAF /* examscheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547629F8FEF300717AAF /* examscheduleViewController.swift */; };
+		380B547929F9076C00717AAF /* examscheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547829F9076C00717AAF /* examscheduleTableViewCell.swift */; };
+		380B547B29F9139500717AAF /* requestbookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547A29F9139500717AAF /* requestbookTableViewCell.swift */; };
+		380B547D29F913BA00717AAF /* requestbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B547C29F913BA00717AAF /* requestbookViewController.swift */; };
+		3835098129CAD5BB00547546 /* noticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835098029CAD5BB00547546 /* noticeTableViewCell.swift */; };
+		386FE95629F6647900475A43 /* assignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FE95529F6647900475A43 /* assignTableViewCell.swift */; };
+		386FE95829F664AD00475A43 /* assignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FE95729F664AD00475A43 /* assignViewController.swift */; };
+		3872DBF129FB969100F55301 /* adddiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3872DBF029FB969100F55301 /* adddiaryViewController.swift */; };
+		387377A42A16809E009C34FB /* onlineclassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387377A32A16809E009C34FB /* onlineclassViewController.swift */; };
+		387377A62A1680B6009C34FB /* onlineclassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387377A52A1680B6009C34FB /* onlineclassTableViewCell.swift */; };
+		387518D12A14C67A0028E29A /* assignedleaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387518D02A14C67A0028E29A /* assignedleaveTableViewCell.swift */; };
+		387FB6462A023068003629F1 /* s-meet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 387FB6442A023068003629F1 /* s-meet.xcdatamodeld */; };
+		388A8ABA2A160410003283CC /* subjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A8AB92A160410003283CC /* subjectViewController.swift */; };
+		388A8ABC2A1605F8003283CC /* subjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A8ABB2A1605F8003283CC /* subjectsTableViewCell.swift */; };
+		388A8ABE2A1623D8003283CC /* issuebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A8ABD2A1623D8003283CC /* issuebookViewController.swift */; };
+		388A8AC02A1625AA003283CC /* issuebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A8ABF2A1625AA003283CC /* issuebookTableViewCell.swift */; };
+		389EBC012A038FFC0062214B /* nameditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389EBC002A038FFC0062214B /* nameditingViewController.swift */; };
+		38C4CCB12A042B9000A24AB8 /* notificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4CCB02A042B9000A24AB8 /* notificationViewController.swift */; };
+		6A3D8C8CDC7F071449A381DE /* Pods_s_meet_s_meetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F834172DD698CCFD7F6E5E3B /* Pods_s_meet_s_meetUITests.framework */; };
+		DCA2C094EDC540A97FA7825E /* Pods_s_meet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9E1EEA65943865CD65853D /* Pods_s_meet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B0BEAD29B9A8C000105C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B0BE8E29B9A8BE00105C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B0BE9529B9A8BE00105C7F;
+			remoteInfo = "s-meet";
+		};
+		26B0BEB829B9A8C000105C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B0BE8E29B9A8BE00105C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B0BE9529B9A8BE00105C7F;
+			remoteInfo = "s-meet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E091C3F33F01BC82DEE524B /* Pods-s-meet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meet.release.xcconfig"; path = "Target Support Files/Pods-s-meet/Pods-s-meet.release.xcconfig"; sourceTree = "<group>"; };
+		261A33CE29C97897000679D3 /* leaveformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaveformViewController.swift; sourceTree = "<group>"; };
+		261A33D029C984C0000679D3 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		265B40FC29C058D700ABB773 /* assignmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentTableViewCell.swift; sourceTree = "<group>"; };
+		265B40FE29C0590500ABB773 /* assignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentViewController.swift; sourceTree = "<group>"; };
+		265C7A9029C2EC590067BB41 /* leaveapplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaveapplicationViewController.swift; sourceTree = "<group>"; };
+		265C7A9229C2EE900067BB41 /* leaveapplicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaveapplicationTableViewCell.swift; sourceTree = "<group>"; };
+		268C15CF29C1A4E6001712A1 /* staffdirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffdirectoryViewController.swift; sourceTree = "<group>"; };
+		268C15D129C1A504001712A1 /* staffdirectoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffdirectoryTableViewCell.swift; sourceTree = "<group>"; };
+		26A4507629BEFCE2002332F1 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
+		26A4507829BF0249002332F1 /* sidemenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuTableViewCell.swift; sourceTree = "<group>"; };
+		26ACD8A729BB01130021C446 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
+		26B0BE9629B9A8BE00105C7F /* s-meet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "s-meet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0BE9929B9A8BE00105C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B0BE9B29B9A8BE00105C7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26B0BE9D29B9A8BE00105C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26B0BEA029B9A8BE00105C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B0BEA229B9A8C000105C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B0BEA529B9A8C000105C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B0BEA729B9A8C000105C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B0BEAC29B9A8C000105C7F /* s-meetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "s-meetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0BEB029B9A8C000105C7F /* s_meetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_meetTests.swift; sourceTree = "<group>"; };
+		26B0BEB229B9A8C000105C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B0BEB729B9A8C000105C7F /* s-meetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "s-meetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0BEBB29B9A8C000105C7F /* s_meetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s_meetUITests.swift; sourceTree = "<group>"; };
+		26B0BEBD29B9A8C000105C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BEF97629C82FCA007E568A /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		26C0392A29C431800018748E /* timetableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetableTableViewCell.swift; sourceTree = "<group>"; };
+		26C0392C29C431B30018748E /* timetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetableViewController.swift; sourceTree = "<group>"; };
+		26D1243E29C83FCC0022A95C /* forgotpasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotpasswordViewController.swift; sourceTree = "<group>"; };
+		380B547229F8EAD600717AAF /* eventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventViewController.swift; sourceTree = "<group>"; };
+		380B547429F8EAF300717AAF /* eventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventTableViewCell.swift; sourceTree = "<group>"; };
+		380B547629F8FEF300717AAF /* examscheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examscheduleViewController.swift; sourceTree = "<group>"; };
+		380B547829F9076C00717AAF /* examscheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examscheduleTableViewCell.swift; sourceTree = "<group>"; };
+		380B547A29F9139500717AAF /* requestbookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestbookTableViewCell.swift; sourceTree = "<group>"; };
+		380B547C29F913BA00717AAF /* requestbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestbookViewController.swift; sourceTree = "<group>"; };
+		3835098029CAD5BB00547546 /* noticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noticeTableViewCell.swift; sourceTree = "<group>"; };
+		386FE95529F6647900475A43 /* assignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignTableViewCell.swift; sourceTree = "<group>"; };
+		386FE95729F664AD00475A43 /* assignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignViewController.swift; sourceTree = "<group>"; };
+		3872DBF029FB969100F55301 /* adddiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adddiaryViewController.swift; sourceTree = "<group>"; };
+		387377A32A16809E009C34FB /* onlineclassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineclassViewController.swift; sourceTree = "<group>"; };
+		387377A52A1680B6009C34FB /* onlineclassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onlineclassTableViewCell.swift; sourceTree = "<group>"; };
+		387518D02A14C67A0028E29A /* assignedleaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignedleaveTableViewCell.swift; sourceTree = "<group>"; };
+		387FB6452A023068003629F1 /* s-meet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "s-meet.xcdatamodel"; sourceTree = "<group>"; };
+		388A8AB92A160410003283CC /* subjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectViewController.swift; sourceTree = "<group>"; };
+		388A8ABB2A1605F8003283CC /* subjectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectsTableViewCell.swift; sourceTree = "<group>"; };
+		388A8ABD2A1623D8003283CC /* issuebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issuebookViewController.swift; sourceTree = "<group>"; };
+		388A8ABF2A1625AA003283CC /* issuebookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issuebookTableViewCell.swift; sourceTree = "<group>"; };
+		389EBC002A038FFC0062214B /* nameditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameditingViewController.swift; sourceTree = "<group>"; };
+		38C4CCB02A042B9000A24AB8 /* notificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationViewController.swift; sourceTree = "<group>"; };
+		53ECB5EA1CE0D61449FA9FC5 /* Pods-s-meetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meetTests.debug.xcconfig"; path = "Target Support Files/Pods-s-meetTests/Pods-s-meetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5440877E71A4B9CE37443AF5 /* Pods_s_meetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_s_meetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DDDD3CB6C7BE0047DAF29A /* Pods-s-meetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meetTests.release.xcconfig"; path = "Target Support Files/Pods-s-meetTests/Pods-s-meetTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F20C2DB116EA7C99E5C2378 /* Pods-s-meet-s-meetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meet-s-meetUITests.debug.xcconfig"; path = "Target Support Files/Pods-s-meet-s-meetUITests/Pods-s-meet-s-meetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8CE511DE07F14101A31A926 /* Pods-s-meet-s-meetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meet-s-meetUITests.release.xcconfig"; path = "Target Support Files/Pods-s-meet-s-meetUITests/Pods-s-meet-s-meetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA25DA97FB1ED5AD12D76FDD /* Pods-s-meet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s-meet.debug.xcconfig"; path = "Target Support Files/Pods-s-meet/Pods-s-meet.debug.xcconfig"; sourceTree = "<group>"; };
+		F834172DD698CCFD7F6E5E3B /* Pods_s_meet_s_meetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_s_meet_s_meetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9E1EEA65943865CD65853D /* Pods_s_meet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_s_meet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B0BE9329B9A8BE00105C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261A33D129C984C0000679D3 /* iOSDropDown.framework in Frameworks */,
+				DCA2C094EDC540A97FA7825E /* Pods_s_meet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEA929B9A8C000105C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCABA17D72CAA06A0310E4A /* Pods_s_meetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEB429B9A8C000105C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3D8C8CDC7F071449A381DE /* Pods_s_meet_s_meetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B0BE8D29B9A8BE00105C7F = {
+			isa = PBXGroup;
+			children = (
+				26B0BE9829B9A8BE00105C7F /* s-meet */,
+				26B0BEAF29B9A8C000105C7F /* s-meetTests */,
+				26B0BEBA29B9A8C000105C7F /* s-meetUITests */,
+				26B0BE9729B9A8BE00105C7F /* Products */,
+				8760DB5851CCEEB7E96BF667 /* Pods */,
+				AC967C326D5E1DB2539DC504 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26B0BE9729B9A8BE00105C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BE9629B9A8BE00105C7F /* s-meet.app */,
+				26B0BEAC29B9A8C000105C7F /* s-meetTests.xctest */,
+				26B0BEB729B9A8C000105C7F /* s-meetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B0BE9829B9A8BE00105C7F /* s-meet */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BE9929B9A8BE00105C7F /* AppDelegate.swift */,
+				26B0BE9B29B9A8BE00105C7F /* SceneDelegate.swift */,
+				26B0BE9D29B9A8BE00105C7F /* ViewController.swift */,
+				26B0BE9F29B9A8BE00105C7F /* Main.storyboard */,
+				387377A52A1680B6009C34FB /* onlineclassTableViewCell.swift */,
+				387377A32A16809E009C34FB /* onlineclassViewController.swift */,
+				388A8ABF2A1625AA003283CC /* issuebookTableViewCell.swift */,
+				388A8ABD2A1623D8003283CC /* issuebookViewController.swift */,
+				388A8ABB2A1605F8003283CC /* subjectsTableViewCell.swift */,
+				388A8AB92A160410003283CC /* subjectViewController.swift */,
+				387518D02A14C67A0028E29A /* assignedleaveTableViewCell.swift */,
+				38C4CCB02A042B9000A24AB8 /* notificationViewController.swift */,
+				389EBC002A038FFC0062214B /* nameditingViewController.swift */,
+				3872DBF029FB969100F55301 /* adddiaryViewController.swift */,
+				265B40FE29C0590500ABB773 /* assignmentViewController.swift */,
+				380B547C29F913BA00717AAF /* requestbookViewController.swift */,
+				380B547A29F9139500717AAF /* requestbookTableViewCell.swift */,
+				380B547829F9076C00717AAF /* examscheduleTableViewCell.swift */,
+				380B547429F8EAF300717AAF /* eventTableViewCell.swift */,
+				380B547229F8EAD600717AAF /* eventViewController.swift */,
+				380B547629F8FEF300717AAF /* examscheduleViewController.swift */,
+				386FE95729F664AD00475A43 /* assignViewController.swift */,
+				386FE95529F6647900475A43 /* assignTableViewCell.swift */,
+				387FB6442A023068003629F1 /* s-meet.xcdatamodeld */,
+				3835098029CAD5BB00547546 /* noticeTableViewCell.swift */,
+				261A33CE29C97897000679D3 /* leaveformViewController.swift */,
+				26D1243E29C83FCC0022A95C /* forgotpasswordViewController.swift */,
+				26BEF97629C82FCA007E568A /* profileViewController.swift */,
+				26C0392C29C431B30018748E /* timetableViewController.swift */,
+				26C0392A29C431800018748E /* timetableTableViewCell.swift */,
+				265C7A9229C2EE900067BB41 /* leaveapplicationTableViewCell.swift */,
+				265C7A9029C2EC590067BB41 /* leaveapplicationViewController.swift */,
+				268C15D129C1A504001712A1 /* staffdirectoryTableViewCell.swift */,
+				268C15CF29C1A4E6001712A1 /* staffdirectoryViewController.swift */,
+				26A4507629BEFCE2002332F1 /* sidemenuViewController.swift */,
+				265B40FC29C058D700ABB773 /* assignmentTableViewCell.swift */,
+				26A4507829BF0249002332F1 /* sidemenuTableViewCell.swift */,
+				26ACD8A729BB01130021C446 /* newViewController.swift */,
+				26B0BEA229B9A8C000105C7F /* Assets.xcassets */,
+				26B0BEA429B9A8C000105C7F /* LaunchScreen.storyboard */,
+				26B0BEA729B9A8C000105C7F /* Info.plist */,
+			);
+			path = "s-meet";
+			sourceTree = "<group>";
+		};
+		26B0BEAF29B9A8C000105C7F /* s-meetTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BEB029B9A8C000105C7F /* s_meetTests.swift */,
+				26B0BEB229B9A8C000105C7F /* Info.plist */,
+			);
+			path = "s-meetTests";
+			sourceTree = "<group>";
+		};
+		26B0BEBA29B9A8C000105C7F /* s-meetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BEBB29B9A8C000105C7F /* s_meetUITests.swift */,
+				26B0BEBD29B9A8C000105C7F /* Info.plist */,
+			);
+			path = "s-meetUITests";
+			sourceTree = "<group>";
+		};
+		8760DB5851CCEEB7E96BF667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA25DA97FB1ED5AD12D76FDD /* Pods-s-meet.debug.xcconfig */,
+				0E091C3F33F01BC82DEE524B /* Pods-s-meet.release.xcconfig */,
+				9F20C2DB116EA7C99E5C2378 /* Pods-s-meet-s-meetUITests.debug.xcconfig */,
+				B8CE511DE07F14101A31A926 /* Pods-s-meet-s-meetUITests.release.xcconfig */,
+				53ECB5EA1CE0D61449FA9FC5 /* Pods-s-meetTests.debug.xcconfig */,
+				73DDDD3CB6C7BE0047DAF29A /* Pods-s-meetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC967C326D5E1DB2539DC504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261A33D029C984C0000679D3 /* iOSDropDown.framework */,
+				FA9E1EEA65943865CD65853D /* Pods_s_meet.framework */,
+				F834172DD698CCFD7F6E5E3B /* Pods_s_meet_s_meetUITests.framework */,
+				5440877E71A4B9CE37443AF5 /* Pods_s_meetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B0BE9529B9A8BE00105C7F /* s-meet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0BEC029B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meet" */;
+			buildPhases = (
+				0FD06487F2AE3D633FDA111B /* [CP] Check Pods Manifest.lock */,
+				26B0BE9229B9A8BE00105C7F /* Sources */,
+				26B0BE9329B9A8BE00105C7F /* Frameworks */,
+				26B0BE9429B9A8BE00105C7F /* Resources */,
+				A428D9AE5B99C4B362818BA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "s-meet";
+			productName = "s-meet";
+			productReference = 26B0BE9629B9A8BE00105C7F /* s-meet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B0BEAB29B9A8C000105C7F /* s-meetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0BEC329B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meetTests" */;
+			buildPhases = (
+				38CF7B8E967FD23F434FABC3 /* [CP] Check Pods Manifest.lock */,
+				26B0BEA829B9A8C000105C7F /* Sources */,
+				26B0BEA929B9A8C000105C7F /* Frameworks */,
+				26B0BEAA29B9A8C000105C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B0BEAE29B9A8C000105C7F /* PBXTargetDependency */,
+			);
+			name = "s-meetTests";
+			productName = "s-meetTests";
+			productReference = 26B0BEAC29B9A8C000105C7F /* s-meetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26B0BEB629B9A8C000105C7F /* s-meetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0BEC629B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meetUITests" */;
+			buildPhases = (
+				9A304FC929AF6BFCFF3AAB86 /* [CP] Check Pods Manifest.lock */,
+				26B0BEB329B9A8C000105C7F /* Sources */,
+				26B0BEB429B9A8C000105C7F /* Frameworks */,
+				26B0BEB529B9A8C000105C7F /* Resources */,
+				DB9E3AA07F3D5212AADB589C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B0BEB929B9A8C000105C7F /* PBXTargetDependency */,
+			);
+			name = "s-meetUITests";
+			productName = "s-meetUITests";
+			productReference = 26B0BEB729B9A8C000105C7F /* s-meetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B0BE8E29B9A8BE00105C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = iroid;
+				TargetAttributes = {
+					26B0BE9529B9A8BE00105C7F = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1420;
+					};
+					26B0BEAB29B9A8C000105C7F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 26B0BE9529B9A8BE00105C7F;
+					};
+					26B0BEB629B9A8C000105C7F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 26B0BE9529B9A8BE00105C7F;
+					};
+				};
+			};
+			buildConfigurationList = 26B0BE9129B9A8BE00105C7F /* Build configuration list for PBXProject "s-meet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B0BE8D29B9A8BE00105C7F;
+			productRefGroup = 26B0BE9729B9A8BE00105C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B0BE9529B9A8BE00105C7F /* s-meet */,
+				26B0BEAB29B9A8C000105C7F /* s-meetTests */,
+				26B0BEB629B9A8C000105C7F /* s-meetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B0BE9429B9A8BE00105C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0BEA629B9A8C000105C7F /* LaunchScreen.storyboard in Resources */,
+				26B0BEA329B9A8C000105C7F /* Assets.xcassets in Resources */,
+				26B0BEA129B9A8BE00105C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEAA29B9A8C000105C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEB529B9A8C000105C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD06487F2AE3D633FDA111B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-s-meet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38CF7B8E967FD23F434FABC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-s-meetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A304FC929AF6BFCFF3AAB86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-s-meet-s-meetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A428D9AE5B99C4B362818BA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-s-meet/Pods-s-meet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-s-meet/Pods-s-meet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-s-meet/Pods-s-meet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9E3AA07F3D5212AADB589C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-s-meet-s-meetUITests/Pods-s-meet-s-meetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-s-meet-s-meetUITests/Pods-s-meet-s-meetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-s-meet-s-meetUITests/Pods-s-meet-s-meetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B0BE9229B9A8BE00105C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D1243F29C83FCC0022A95C /* forgotpasswordViewController.swift in Sources */,
+				3835098129CAD5BB00547546 /* noticeTableViewCell.swift in Sources */,
+				38C4CCB12A042B9000A24AB8 /* notificationViewController.swift in Sources */,
+				380B547529F8EAF300717AAF /* eventTableViewCell.swift in Sources */,
+				261A33CF29C97897000679D3 /* leaveformViewController.swift in Sources */,
+				388A8ABA2A160410003283CC /* subjectViewController.swift in Sources */,
+				388A8ABC2A1605F8003283CC /* subjectsTableViewCell.swift in Sources */,
+				388A8ABE2A1623D8003283CC /* issuebookViewController.swift in Sources */,
+				26B0BE9E29B9A8BE00105C7F /* ViewController.swift in Sources */,
+				380B547929F9076C00717AAF /* examscheduleTableViewCell.swift in Sources */,
+				389EBC012A038FFC0062214B /* nameditingViewController.swift in Sources */,
+				265C7A9329C2EE900067BB41 /* leaveapplicationTableViewCell.swift in Sources */,
+				380B547B29F9139500717AAF /* requestbookTableViewCell.swift in Sources */,
+				265B40FF29C0590500ABB773 /* assignmentViewController.swift in Sources */,
+				387377A62A1680B6009C34FB /* onlineclassTableViewCell.swift in Sources */,
+				26C0392D29C431B30018748E /* timetableViewController.swift in Sources */,
+				380B547729F8FEF300717AAF /* examscheduleViewController.swift in Sources */,
+				26B0BE9A29B9A8BE00105C7F /* AppDelegate.swift in Sources */,
+				268C15D229C1A504001712A1 /* staffdirectoryTableViewCell.swift in Sources */,
+				386FE95629F6647900475A43 /* assignTableViewCell.swift in Sources */,
+				26A4507729BEFCE2002332F1 /* sidemenuViewController.swift in Sources */,
+				265B40FD29C058D700ABB773 /* assignmentTableViewCell.swift in Sources */,
+				26BEF97729C82FCA007E568A /* profileViewController.swift in Sources */,
+				265C7A9129C2EC590067BB41 /* leaveapplicationViewController.swift in Sources */,
+				26C0392B29C431800018748E /* timetableTableViewCell.swift in Sources */,
+				388A8AC02A1625AA003283CC /* issuebookTableViewCell.swift in Sources */,
+				26B0BE9C29B9A8BE00105C7F /* SceneDelegate.swift in Sources */,
+				380B547329F8EAD600717AAF /* eventViewController.swift in Sources */,
+				268C15D029C1A4E6001712A1 /* staffdirectoryViewController.swift in Sources */,
+				387377A42A16809E009C34FB /* onlineclassViewController.swift in Sources */,
+				386FE95829F664AD00475A43 /* assignViewController.swift in Sources */,
+				26ACD8A829BB01130021C446 /* newViewController.swift in Sources */,
+				387518D12A14C67A0028E29A /* assignedleaveTableViewCell.swift in Sources */,
+				3872DBF129FB969100F55301 /* adddiaryViewController.swift in Sources */,
+				26A4507929BF0249002332F1 /* sidemenuTableViewCell.swift in Sources */,
+				387FB6462A023068003629F1 /* s-meet.xcdatamodeld in Sources */,
+				380B547D29F913BA00717AAF /* requestbookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEA829B9A8C000105C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0BEB129B9A8C000105C7F /* s_meetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BEB329B9A8C000105C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0BEBC29B9A8C000105C7F /* s_meetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B0BEAE29B9A8C000105C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B0BE9529B9A8BE00105C7F /* s-meet */;
+			targetProxy = 26B0BEAD29B9A8C000105C7F /* PBXContainerItemProxy */;
+		};
+		26B0BEB929B9A8C000105C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B0BE9529B9A8BE00105C7F /* s-meet */;
+			targetProxy = 26B0BEB829B9A8C000105C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26B0BE9F29B9A8BE00105C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B0BEA029B9A8BE00105C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26B0BEA429B9A8C000105C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B0BEA529B9A8C000105C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B0BEBE29B9A8C000105C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B0BEBF29B9A8C000105C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B0BEC129B9A8C000105C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA25DA97FB1ED5AD12D76FDD /* Pods-s-meet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B0BEC229B9A8C000105C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E091C3F33F01BC82DEE524B /* Pods-s-meet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26B0BEC429B9A8C000105C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ECB5EA1CE0D61449FA9FC5 /* Pods-s-meetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meetTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/s-meet.app/s-meet";
+			};
+			name = Debug;
+		};
+		26B0BEC529B9A8C000105C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DDDD3CB6C7BE0047DAF29A /* Pods-s-meetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meetTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/s-meet.app/s-meet";
+			};
+			name = Release;
+		};
+		26B0BEC729B9A8C000105C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F20C2DB116EA7C99E5C2378 /* Pods-s-meet-s-meetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "s-meet";
+			};
+			name = Debug;
+		};
+		26B0BEC829B9A8C000105C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CE511DE07F14101A31A926 /* Pods-s-meet-s-meetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "s-meetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iroid.s-meetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "s-meet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B0BE9129B9A8BE00105C7F /* Build configuration list for PBXProject "s-meet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0BEBE29B9A8C000105C7F /* Debug */,
+				26B0BEBF29B9A8C000105C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0BEC029B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0BEC129B9A8C000105C7F /* Debug */,
+				26B0BEC229B9A8C000105C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0BEC329B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0BEC429B9A8C000105C7F /* Debug */,
+				26B0BEC529B9A8C000105C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0BEC629B9A8C000105C7F /* Build configuration list for PBXNativeTarget "s-meetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0BEC729B9A8C000105C7F /* Debug */,
+				26B0BEC829B9A8C000105C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		387FB6442A023068003629F1 /* s-meet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				387FB6452A023068003629F1 /* s-meet.xcdatamodel */,
+			);
+			currentVersion = 387FB6452A023068003629F1 /* s-meet.xcdatamodel */;
+			path = "s-meet.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26B0BE8E29B9A8BE00105C7F /* Project object */;
+}
